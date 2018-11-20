@@ -1,22 +1,65 @@
 @charset "utf-8";
 /* CSS Document */
 
+
 body {
-	background-color: #22F5B2;
-	font-family: 'Noto Sans SC', sans-serif;
+	margin: auto 60px;
+	background-color: #22F5B2;/*色彩选择工具*/
+	font-family: 'Noto Sans SC', sans-serif;/*Google fonts*/
+	background-image: url(../images/1.jpg);/*背景图*/
+	background-repeat: no-repeat;
+	background-position: 60% 35%;
+	background-size: 200px 200px;
+	background-attachment: fixed;/*背景图片固定*/
 }
+
 h1 {
-	font-size: 32px;
+	margin: 10px -50px 40px;
+	border: 2px dotted green;/*边界属性*/
+	border-radius: 20px;/*边界圆角设置*/
+	padding: 10px 10px;
+	background-color: #FF0;
+	background-clip: padding-box;/*背景色只填充padding部分，不扩展到边界*/
+	font-size: 36px;
 	text-align: center;
 	line-hight: 10px;
-	text-shadow: 5px 3px 1px blue;
+	text-shadow: 3px 1px 1px blue;
+	letter-spacing: 30px;/*字间距*/
 }
 p {
-	color : yellow;
-}
-#email {
-	text-decoration: underline;
+	color: yellow;
+	text-indent: 25px;/*首行缩进*/
+	line-height: 0.8;
 }
 li {
 	font-weight: 600;
+	line-height: 0.8;
 }
+
+a{
+	text-decoration: none;/*取消默认下划线*/
+	outline: none;/*取消默认轮廓*/
+	color: yellow;
+}
+
+a:link {
+	color: yellow;
+}
+a:visited {
+	color: #F06;
+}
+a:focus {
+	color: #30F;
+}
+a:hover {
+	color: #30F;/*鼠标悬停时文字颜色*/
+	background-color: yellow;/*悬停时背景色*/
+	border-bottom: 1px solid;/*悬停时下边框线*/
+}
+a:active {
+	color: white;/*点击时字体颜色*/
+	background-color: red;
+}
+	
+	
+	
