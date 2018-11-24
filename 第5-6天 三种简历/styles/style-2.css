@@ -1,0 +1,33 @@
+@charset "utf-8";
+/* CSS Document */
+
+.bold {
+	font-weight: bold;/*加粗文字*/
+	margin-right: 5px;/*span内间距*/
+	}
+.inline {
+	display: inline;/*span与span变成同行*/
+	margin-right: 30px;/*span与span块之间的间距*/
+}
+
+.block {
+	display: block;/*定义小块*/
+	line-height: 8px;/*块内行间距*/
+	margin-top: 30px;/*块与块之间的行间距*/
+	margin-bottom: 30px;
+}
+
+h2 {
+	line-height: 40px;/*二级标题行间距*/
+}
+h1 {
+	background-color: #39F;
+	color: white;
+	text-align: center;
+	width: 15%;
+	float: left;
+	margin-right: 25px;
+	height: 750px;
+	margin-top: -20px;
+	padding-top: 60px;
+}
