@@ -1,0 +1,119 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	margin: 0px;
+}
+.header {
+	margin: 0px;
+	background-color: #313131;
+	height: 60px;
+}
+.header-content {
+	width: 960px;
+	overflow: hidden;
+	margin: 0 auto;
+}
+.logo {
+	block: inline;
+	color: white;
+	float: left;
+}
+.a {
+	block: inlline;
+	float: right;
+}
+a{
+	color: #E6E6E6;
+	font-size: 5px;
+}
+.clearfix {
+	clear: both;
+}
+.banner {
+	background-color: #6BE331;
+}
+.span {
+	width: 960px;
+	height: 120px;
+	margin: 0 auto;
+	position: relative;
+}
+.span-first{
+	position: absolute;
+	right: 0px;
+	bottom: 9px;
+}
+.first {
+	background-color: #A4EE80;
+	border : 1px solid black;
+	padding: 4px 7px;
+	font-size: 5px;
+}
+#first2 {
+	padding-top: 15px;
+	background-color: #E4FFD7;
+}
+.daohang {
+	border-bottom: 1px solid #D0D0D0;
+}
+.daohang-content {
+	width: 960px;
+	margin: 0 auto;
+	height: 60px;
+	position: relative;
+}
+.span-second {
+	position: absolute;
+	left: 0px;
+	bottom: 14px
+}
+.second {
+	background-color: #EAEAEA;
+	font-size: 5px;
+	border: 1px solid #D5D5D5;
+	padding: 15px 25px;
+	box-sizing: border-box;
+	border-radius: 15px 15px 0px 0px;
+	margin-right: -5px;
+}
+#second1 {
+	background-color: #FFF;
+	border-bottom-color: white;
+}
+
+.content {
+	margin: 0 auto;
+	width: 960px;
+}
+.top, .bottom, .middle {
+	display: flex;
+	justify-content: space-between;
+	font-size: 10px;
+}
+	
+.third, .fifth {
+	border: 1px solid #D3D3D3;
+	padding: 80px;
+	margin: 8px 8px 0px 0px;
+	width: calc(33% - 8px);
+	text-align: center;
+}
+.fourth {
+	border: 1px solid #D3D3D3;
+	padding: 80px;
+	margin: 8px 8px 0px 0px;
+	text-align: center;
+	width: calc(25% - 8px);
+}
+.footer {
+	background-color: #707070;
+	color: #E5E5E5;
+	height: 80px;
+	text-align: center;
+	margin-top: 20px;
+}
+.footer-content {
+	font-size: 8px;
+	padding-top: 10px;
+}
